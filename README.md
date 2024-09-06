@@ -8,7 +8,22 @@ Turn any old (or not) ATX computer power supply on a 12V and USB devices power s
 4x M3 nuts  
 4x M3 cone head screws  
 
-PS-ON signal need to be connected to the ground thru the switch to turn ON and OFF the power supply.
+## To print
+STL files provided need to be print. The case and the connector face doesn't need any support.  
+The laterals bracket need supports (only for the small wings on the front)  
+One lateral bracket need to be **printed mirrored**  
+
+## Wiring
+Black wires are always groung  
+Red wires are the 5V  
+Yellow or white wire are the 12V  
+PS-ON signal (normaly green) need to be connected to the ground thru the switch to turn ON and OFF the power supply.
+### not used
+Orange wires are the 3.3V  
+Blue is the -12V  
+Brown is the 3.3V sens  
+Grey are the power good signal. Can be used for an LED  
+Purple is the 5V standbye (allways on)
 
 ## Pictures
 <img src="/Pictures/IMG_20240906_090725.jpg" alt="Photo1" width="50%"/>   
